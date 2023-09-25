@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import { MdOutlineLocationOn } from "react-icons/md";
 import { AiOutlineDollar } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 
 const Job = ({ job }) => {
-    const { logo, job_title, company_name, remote_or_onsite, location, job_type, salary } = job;
+    const { id, logo, job_title, company_name, remote_or_onsite, location, job_type, salary } = job;
     return (
         <div className="card card-compact bg-base-100 border p-6">
             <figure><img src={logo} alt="Shoes" /></figure>
@@ -20,7 +21,9 @@ const Job = ({ job }) => {
                     <h2 className='flex items-center'><AiOutlineDollar className='text-2xl me-2'></AiOutlineDollar>{salary}</h2>
                 </div>
                 <div className="card-actions">
-                    <button className="btn btn-primary normal-case">View Details</button>
+                    <Link to={`/job/${id}`}>
+                        <button className="btn btn-primary normal-case">View Details</button>
+                    </Link>
                 </div>
             </div>
         </div>

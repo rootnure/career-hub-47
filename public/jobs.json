@@ -1,6 +1,6 @@
 [
      {
-      "id": 1,
+      "id": "c0mpl3x1d12345xyz789",
       "logo": "https://i.ibb.co/NN7BkyN/google.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
@@ -19,7 +19,7 @@
       }
     },
     {
-        "id": 2,
+        "id": "un1que1dwithoutupper",
         "logo": "https://i.ibb.co/s99X4Kh/netflix.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "id": 3,
+        "id": "xyz987654321complexid",
         "logo": "https://i.ibb.co/CPWWCPw/tesla.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
@@ -57,7 +57,7 @@
         }
       },
       {
-        "id": 4,
+        "id": "20charlongidnospace1",
         "logo": "https://i.ibb.co/NN7BkyN/google.png",
         "job_title": "Software Engineer",
         "company_name": "Google LLC",
@@ -76,7 +76,7 @@
         }
       },
       {
-        "id": 5,
+        "id": "id4complexstring67890",
         "logo": "https://i.ibb.co/CPWWCPw/tesla.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Tesla",
@@ -95,7 +95,7 @@
         }
       },
       {
-        "id": 6,
+        "id": "abcdef123456nopqrs567",
         "logo": "https://i.ibb.co/s99X4Kh/netflix.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
