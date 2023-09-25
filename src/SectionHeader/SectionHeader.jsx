@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const SectionHeader = ({title, text}) => {
     return (
         <div className="text-center">
-            <h2 className="text-5xl mb-4">{title}</h2>
+            <h2 className="text-5xl mb-4 font-bold">{title}</h2>
             <p className='mb-4'>{text}</p>
         </div>
     );
