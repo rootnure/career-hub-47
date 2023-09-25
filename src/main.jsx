@@ -7,6 +7,7 @@ import Home from './Home/Home'
 import ErrorPage from './ErrorPage/ErrorPage'
 import JobDetails from './JobDetails/JobDetails'
 import FeaturedJobs from './FeaturedJobs/FeaturedJobs'
+import AppliedJobs from './AppliedJobs/AppliedJobs'
 
 const router = createBrowserRouter([
   {
@@ -23,9 +24,14 @@ const router = createBrowserRouter([
         element: <FeaturedJobs></FeaturedJobs>
       },
       {
+        path: '/applied',
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch('jobs.json') // only load the data you need. do not load all the data
+      },
+      {
         path: '/job/:jobId',
         element: <JobDetails></JobDetails>,
-        loader: () => fetch('../jobs.json'),
+        loader: () => fetch('../jobs.json') // do not load all data. load only what is needed
       }
     ]
   }
